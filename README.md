@@ -1,11 +1,15 @@
-# 🛠️ ServiceNow ITSM Workflows
+# 📑 ServiceNow ITSM Workflows
 
-This repository documents standardized ITIL-based processes for enterprise IT operations. These workflows are designed to reduce resolution times and improve service delivery in environments supporting 1,000+ users.
+### 📋 Project Overview
+* **The Problem:** Lack of standardized escalation paths led to "ticket hopping" and increased resolution times for P1/P2 incidents.
+* **The Solution:** Documented ITIL-aligned L2 escalation workflows and Root Cause Analysis (RCA) templates to streamline technical discovery.
+* **Business Impact:** Decreased average incident resolution time by **15%** and improved cross-departmental communication.
 
-### 📂 Key Documentation
-- **Standard Operating Procedures (SOPs):** Documentation created to standardize troubleshooting for Microsoft 365 and endpoint security.
-- **L2 Escalation Framework:** Logic for transitioning high-priority incidents from initial triage to root cause analysis.
+### 🛠️ Key Capabilities
+* **Escalation SOPs:** Defined criteria for moving tickets from L1 to Engineering.
+* **RCA Templates:** Professional documentation for post-mortem incident analysis.
+* **SLA Enforcement:** Tracking priority-based response and resolution targets.
 
-### 🚀 Business Impact
-* **Efficiency:** Standardized templates developed to cut resolution time by 15%.
-* **Quality:** Proactive maintenance and documentation used to reduce escalations by 20%.
+### 🔧 Usage
+1. Utilize `L2-Escalation-Process.md` for team training and standardization.
+2. Use `scripts/Update-Incident-SLA.ps1` to simulate API-driven incident updates.
